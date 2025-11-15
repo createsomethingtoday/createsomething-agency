@@ -13,15 +13,15 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'CREATE SOMETHING | Systems Thinking for AI-Native Development',
+        title: 'CREATE SOMETHING Agency | The Practice Layer',
       },
       {
         name: 'description',
-        content: 'Systematic evaluation of AI-native development with real data. Tracked experiments using Claude Code + Cloudflare — not just blog posts, but honest results with precise metrics: time, costs, errors, and learnings.',
+        content: 'AI-native development professional services. Research from createsomething.io applied to real business challenges. Consulting, implementation, and training backed by 100+ tracked experiments.',
       },
       {
         name: 'keywords',
-        content: 'AI-native development, Claude Code, Cloudflare Workers, tracked experiments, development metrics, AI-assisted coding, TanStack Router, D1 database, systems thinking, experiment tracking, development costs, time tracking, error analysis, AI development patterns',
+        content: 'AI-native development services, Claude Code consulting, Cloudflare Workers implementation, AI development agency, professional services, implementation services, training services, case studies, proven patterns',
       },
       {
         name: 'author',
@@ -42,19 +42,19 @@ export const Route = createRootRoute({
       },
       {
         property: 'og:url',
-        content: 'https://createsomething.io',
+        content: 'https://createsomething.agency',
       },
       {
         property: 'og:title',
-        content: 'CREATE SOMETHING | AI-Native Development Experiments',
+        content: 'CREATE SOMETHING Agency | The Practice Layer',
       },
       {
         property: 'og:description',
-        content: 'Systematic evaluation of AI-native development with tracked experiments. Real data from building with Claude Code + Cloudflare: time, costs, errors, and honest learnings.',
+        content: 'AI-native development professional services. Research from createsomething.io applied to real business challenges.',
       },
       {
         property: 'og:image',
-        content: 'https://createsomething.io/og-image.svg',
+        content: 'https://createsomething.agency/og-image.svg',
       },
       {
         property: 'og:image:type',
@@ -70,7 +70,7 @@ export const Route = createRootRoute({
       },
       {
         property: 'og:site_name',
-        content: 'CREATE SOMETHING',
+        content: 'CREATE SOMETHING Agency',
       },
       {
         property: 'og:locale',
@@ -83,19 +83,19 @@ export const Route = createRootRoute({
       },
       {
         name: 'twitter:url',
-        content: 'https://createsomething.io',
+        content: 'https://createsomething.agency',
       },
       {
         name: 'twitter:title',
-        content: 'CREATE SOMETHING | AI-Native Development Experiments',
+        content: 'CREATE SOMETHING Agency | The Practice Layer',
       },
       {
         name: 'twitter:description',
-        content: 'Tracked experiments with Claude Code + Cloudflare. Real metrics: time, costs, errors. Not blog posts—honest data from building in production.',
+        content: 'Professional services applying AI-native research to real business challenges.',
       },
       {
         name: 'twitter:image',
-        content: 'https://createsomething.io/og-image.svg',
+        content: 'https://createsomething.agency/og-image.svg',
       },
       {
         name: 'twitter:creator',
@@ -117,15 +117,15 @@ export const Route = createRootRoute({
       // AEO (Answer Engine Optimization) for AI/LLM queries
       {
         name: 'article:section',
-        content: 'AI-Native Development Research',
+        content: 'Professional Services, Consulting',
       },
       {
         name: 'article:tag',
-        content: 'Claude Code, Cloudflare Workers, Development Metrics, Experiment Tracking, AI-Assisted Coding',
+        content: 'AI Development Services, Consulting, Implementation, Training, Case Studies',
       },
       {
         name: 'citation_title',
-        content: 'CREATE SOMETHING: Systematic Evaluation of AI-Native Development',
+        content: 'CREATE SOMETHING Agency: AI-Native Development Professional Services',
       },
       {
         name: 'citation_author',
@@ -148,7 +148,7 @@ export const Route = createRootRoute({
       },
       {
         rel: 'canonical',
-        href: 'https://createsomething.io',
+        href: 'https://createsomething.agency',
       },
       {
         rel: 'preconnect',
@@ -161,7 +161,7 @@ export const Route = createRootRoute({
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&family=JetBrains+Mono:wght@400;500;600&display=swap',
+        href: 'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:wght@400;500;600&display=swap',
       },
       {
         rel: 'manifest',
@@ -173,47 +173,34 @@ export const Route = createRootRoute({
         type: 'application/ld+json',
         children: JSON.stringify({
           '@context': 'https://schema.org',
-          '@type': 'WebSite',
-          name: 'CREATE SOMETHING',
-          alternateName: 'AI-Native Development Research',
-          description: 'Systematic evaluation of AI-native development through tracked experiments. Real data from building with Claude Code and Cloudflare: development time, costs, error counts, and honest learnings from production systems.',
-          url: 'https://createsomething.io',
+          '@type': 'ProfessionalService',
+          name: 'CREATE SOMETHING Agency',
+          alternateName: 'The Practice Layer',
+          description: 'AI-native development professional services. Research from createsomething.io applied to real business challenges. Consulting, implementation, and training backed by 100+ tracked experiments.',
+          url: 'https://createsomething.agency',
           inLanguage: 'en-US',
-          author: {
+          serviceType: ['Consulting', 'Implementation', 'Training'],
+          provider: {
             '@type': 'Person',
             name: 'Micah Johnson',
             url: 'https://www.linkedin.com/in/micahryanjohnson/',
-            jobTitle: 'AI-Native Development Researcher',
+            jobTitle: 'AI-Native Development Consultant',
           },
-          publisher: {
-            '@type': 'Organization',
-            name: 'CREATE SOMETHING',
-            logo: {
-              '@type': 'ImageObject',
-              url: 'https://createsomething.io/favicon.svg',
-            },
-          },
+          areaServed: 'Worldwide',
           about: {
             '@type': 'Thing',
-            name: 'AI-Native Development',
-            description: 'Development practices and patterns using AI coding assistants like Claude Code with modern infrastructure',
+            name: 'AI-Native Development Services',
+            description: 'Professional services for implementing AI-native development practices with proven patterns from research',
           },
           keywords: [
-            'AI-native development',
-            'Claude Code experiments',
-            'Cloudflare Workers',
-            'development metrics tracking',
-            'AI-assisted coding',
-            'experiment-driven development',
-            'TanStack Router',
-            'systems thinking',
-            'transparent development costs',
+            'AI-native development services',
+            'Claude Code consulting',
+            'Cloudflare Workers implementation',
+            'AI development consulting',
+            'professional services',
+            'case studies',
+            'proven patterns',
           ],
-          potentialAction: {
-            '@type': 'SearchAction',
-            target: 'https://createsomething.io/articles?q={search_term_string}',
-            'query-input': 'required name=search_term_string',
-          },
         }),
       },
     ],
