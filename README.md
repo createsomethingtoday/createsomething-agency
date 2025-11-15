@@ -145,6 +145,41 @@ Want to prototype ideas before engaging?
 
 → **[createsomething.space](https://createsomething.space)** — Fork experiments and test approaches.
 
+## Open Source Commitment
+
+Following the Valve model: deliver value to the ecosystem, not just extract from it.
+
+### Revenue Allocation
+
+**Commitment:** X% of agency revenue sponsors open source maintainers
+
+Publicly tracked on this page. Current sponsorships:
+
+- **TanStack** — Core framework enabling our client work
+- **Cloudflare Workers** — Infrastructure we build on
+- **Community Tools** — Projects that improve AI-native development
+
+### Why This Matters
+
+Client work informs which tools need improvement. Agency revenue funds those improvements. The hermeneutic circle in action.
+
+**Microsoft model:** Extract value → Build walls → Extract more
+
+**Valve model:** Fund ecosystem → Better tools → Everyone wins
+
+**CREATE SOMETHING model:** Client revenue → Tool sponsorship → Better client work
+
+This creates a moat through ecosystem relationships, not code ownership.
+
+### Client Contributions
+
+When we find issues during client work, we fix them upstream:
+- Bug reports with detailed reproductions
+- Pattern documentation for common use cases
+- Tooling improvements contributed back
+
+See case studies for specific upstream contributions made during engagements.
+
 ## License
 
 MIT License - See [LICENSE](./LICENSE) for details
